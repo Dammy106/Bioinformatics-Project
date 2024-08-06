@@ -1,5 +1,9 @@
 # Bioinformatics-Project
 The purpose oof this is to run PCA on alleles and to hone bioinformatics project skills.
+* Download a VCF of population genotypes from the 1000 Genomes project.
+* Use pysam to parse it and summarize it into a 2D numpy array to run PCA and save it as a pandas dataframe.
+* Run PCA and tSNE on it and visualize the results with both matplotlib and Altair, coloring the points based on the ancestry labels.
+
 ## Preview VCF on 42basepairs
 
 * [Preview variants](https://42basepairs.com/browse/s3/1000genomes/release/20110521?file=ALL.chr22.phase1_release_v3.20101123.snps_indels_svs.genotypes.vcf.gz&preview=variants)
